@@ -1,0 +1,74 @@
+.footer-alt{
+    padding: 50px 0;
+    background-color: #272a33;
+}
+.footer-al.container.row {
+    text-align: justify;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+
+
+}
+.col-4 h2 {
+    color:#fff;
+
+}
+.col-12 h2 {
+  color:#fff;
+
+}
+.col-4 ul li a , p  {
+    text-decoration: none;
+    color: #98a0aa;
+    padding-top: 8px;
+    display: inline-block;
+    font-size: 14px;
+    transition: all .3s ease-in-out;
+    text-align: left;
+    transition: 0.5s ease;
+
+}
+.col-4 ul li a:hover{
+    color:#dde1e5;
+}
+.email input {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color:#343a40;
+    background-clip: padding-box;
+    border: 1px solid#343a40;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+}
+
+
+.col-lg-12{
+    text-align: center;
+    background: #343a40;
+    height: 100px;
+
+}
+.email{
+    display: inline;
+    position: static;
+}
+
+.email svg {
+
+    position:relative;
+    width: 20px;
+    height: 20px;
+    color: #495057;
+    top: -30px;
+    left: 92%;
+
+}
+

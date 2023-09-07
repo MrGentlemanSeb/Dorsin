@@ -1,0 +1,67 @@
+
+.navbar{
+    position: fixed;
+    z-index: 100;
+    font-family: 'poppins', sans-serif;
+    background: #fff;
+    border: #fff;
+
+    width: 100%;
+    height: 10%;
+
+
+}
+@media screen and (max-width:700px) {
+    .navbar{
+        height: 50px;
+    }
+}
+.navbar navbar-expand-lg bg-body-tertiary{
+    font-family: 'poppins', sans-serif;
+    background: #fff;
+    border: #fff;
+    height: 100px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.navbar-toggler{
+    text-decoration: none;
+    background: #fff;
+
+}
+.navbar-toggler:after{
+    border: #432929 4px solid;
+    font-weight: lighter;
+}
+
+.btn {
+    margin-left: 1rem;
+    border-radius: 40px;
+    background: #fb3e3e;
+    transition: .5s ease;
+}
+.btn:hover{
+    transform: translateY(-8px);
+}
+.navbar-brand{
+
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans Unicode';
+    color: #3a363a;
+    font-weight:bolder;
+    background: #fff;
+}
+.container-fluid{
+    background: #fff;
+}
+.navbar-nav{
+    background: #fff;
+    font-size: 14px;
+}
+.navbar-nav .nav-link {
+   margin-left: 2.5rem;
+   background: #fff;
+}
+.navbar-nav .nav-link:hover {
+    color: #fb3e3e;
+}

@@ -1,0 +1,47 @@
+.section-bg{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.section-title{
+    padding-top: 80px;
+    text-align: center;
+    width: 100%;
+    font-size: 2.5rem;
+}
+
+h2{
+    color:#6c757d!important;
+    text-decoration: none;
+}
+
+h3{
+    cursor: pointer;
+    transition: 0.5s ease;
+    font-size: 20px;
+    font-family:sans-serif;
+}
+h3:hover{
+    color: #fb3e3e;
+}
+svg {
+    color:  #fb3e3e;
+}
+.read-btn{
+    
+    
+    text-decoration: none;
+    color: #fb3e3e;
+    font-size: 1rem;
+    transition: 0.5s ease;
+
+}
+.read-btn:hover{
+    color: #000;
+}
+.metier {
+    text-align: left;
+    border-radius:.4em;
+}

@@ -1,0 +1,134 @@
+
+.transparent{
+    background:linear-gradient(to right, #522da8e4, #711e72e3);
+    position: absolute;
+    height: 209vh;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    padding: 30px;
+    align-content: center;
+    color: #fff;
+  }
+  
+  form {
+    // margin-right: 50%;
+    display: block;
+    margin-bottom: 20px;
+    // position: absolute;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    background: #fff;
+    padding: 32px 32px 32px 32px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 3px 0px #000;
+    
+    // Annuler l'opacité des composants à l'intérieur de form
+   
+  }
+  @media screen and (min-width:800px ){
+    .transparent{
+      display: flex;
+      margin-top: 40px;
+    }
+    form{
+    display: inline-block;
+    margin-left: 150px;
+    width: 50%;
+    margin-top: 50px;
+    padding: 32px 32px 32px 32px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 3px 0px #000;
+    // Annuler l'opacité des composants à l'intérieur de form
+    height: 40%;
+    }
+    .title{
+      padding: 5px;
+      width: 80%;
+      height: 100%;
+    }
+    h1{
+      font-size: x-large;
+      align-content: space-between;
+      margin: 30px;
+    }
+    p{
+      margin: 30px;
+    }
+    .icon{
+      margin-top: -5000px;
+    }
+
+  } 
+    
+  
+  p{
+    color: #fff;
+  }
+  
+  img {
+    margin-top: 10px;
+    width: 500px;
+    height:154vh;
+    object-fit: cover;
+  }
+  
+  h1 {
+    margin-top: 80px;
+    font-size: 32px;
+    line-height: 48px;
+    color: #fff;
+  }
+  
+  h4 {
+    color: black;
+    margin-top: 10%;
+    padding: 20px;
+    font-size: medium;
+    width: 100%;
+    display: block;
+    font-weight: bold;
+    > * {
+        opacity:1;
+      }
+  }
+  
+  .btn {
+    margin-bottom: 40px;
+    text-align: center;
+      transition: .5s ease;
+      background:  #fb3e3e;;
+      color: #fff;
+  }
+  .btn:hover {
+    transform: translateY(-8px);
+  }
+  .icon {
+    position: fixed;
+    z-index: 100;
+    margin-top: 15%;
+    background: #000;
+    color: #fff;
+    padding:.5rem;
+  }
+  .icon1 {
+    animation: rotate 2.5s linear infinite;
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  #home{
+    background: linear-gradient(to right, #512DA8, #711e72);
+    height: 89%
+
+  }
